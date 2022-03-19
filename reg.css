@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(45deg, #16bffd, #cb3066);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    height: 100%;
+    width: 100%;
+}
+.item {
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+}
+.div {
+    width: min-content;
+    margin-top: 20px;
+    margin: 10px auto;
+}
+.box {
+    background: transparent;
+    border: solid white 1px;
+    margin: 200px auto;
+    width: 400px;
+    height: min-content;
+    border-radius: 5px;
+}
+.btn_back {
+    margin: 20px;
+    width: min-content;
+}
+.title {
+    margin: 10px auto;
+    width: min-content;
+}
+.title_text {
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+}
+.login {
+    margin: 10px auto;
+    margin-top: 50px;
+    width: min-content;
+}
+.password {
+    margin: 10px auto;
+    width: min-content;
+}
+.enter {
+    width: min-content;
+    margin: 10px auto;
+    margin-top: 50px;
+}
+.btn_enter {
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    margin: 10px;
+    border: solid white 2px;
+    border-radius: 25px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+}
+.btn_enter:hover {
+    background: white;
+    color: #cb3066;
+}
+.voiti {
+    margin: 10px auto;
+    margin-top: 60px;
+}
+.item {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.voiti {
+    margin: 10px auto;
+    margin-top: 60px;
+    width: 250px;
+}
+.voiti_text {
+    font-size: 15px;
+}
+.place {
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 20px;
+    text-align: center;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
