@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(45deg, #16bffd, #cb3066);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    height: 100%;
+    width: 100%;
+}
+.box {
+    background: transparent;
+    border: solid white 1px;
+    margin: 200px auto;
+    width: 400px;
+    height: min-content;
+    border-radius: 5px;
+}
+.btn_back {
+    margin: 20px;
+    width: min-content;
+}
+.main_title {
+    margin: 10px auto;
+    width: min-content;
+}
+.title {
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+}
+.login_place {
+    margin: 10px auto;
+    margin-top: 50px;
+    width: min-content;
+}
+.password_place {
+    margin: 10px auto;
+    width: min-content;
+}
+
+.enter {
+    margin: 10px auto;
+    margin-top: 50px;
+    border: solid white 2px;
+    border-radius: 25px;
+    width: 100px;
+    height: min-content;
+    text-align: center;
+}
+.enter_text {
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    margin: 10px;
+}
+.enter:hover {
+    background: linear-gradient(45deg, #22c1c3, #fdbb2d);
+}
+.help_place {
+    margin: 10px auto;
+    margin-top: 60px;
+}
+.item {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.login, .password {
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 20px;
+    text-align: center;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
