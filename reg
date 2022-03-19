@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reg.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="box">
+        <div class="back">
+            <div class="btn_back"><a href="kobyai.html" class="item btn_back_text">Назад</a></div>
+        </div>
+        <div class="div title">
+            <h1 class="item title_text">Регистрация</h1>
+        </div>
+        <div class="div login">
+            <h1 class="item login_text">Введите логин: </h1>
+            <input type="login" class="place">
+        </div>
+        <div class="div password">
+            <h1 class="item password_text">Введите пароль:</h1>
+            <input type="password" class="place">
+        </div>
+        <div class="div password0">
+            <h1 class="item password0_text">Введите пароль ещё раз:</h1>
+            <input type="password" class="place">
+        </div>
+        <div class="div enter">
+            <a href="" class="item btn_enter">Зарегистрировать</a>
+        </div>
+        <div class="div voiti">
+            <h1 class="item voiti_text">У вас уже есть аккаунт? <a href="auto.html">Войти</a></h1>
+        </div>
+
+</body>
+</html>
