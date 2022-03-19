@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobyai.ru - сайт кобяйского района.</title>
+    <link rel="stylesheet" href="css/Kobyai.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="item_head main_text">
+                <h1 class="main_text_h1">Kobyai</h1>
+            </div>
+            <div class="item_head but_head">
+                <ul>
+                    <li><a href="auto.html">Аккаунт</a></li>
+                    <li><a href="main.html">Главная</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bod">
+        <div class="discrib">
+            <h1 class="discrib_text">Информационная торговая площадка для предоставления товаров и услуг, с возможностью создания своего интернет-магазина</h1>
+            </div>
+             <div class="btn_reg">
+                <a href="reg.html" class="text"><h1 class="btn_text">Начать работу!</h1></a>
+            </div>
+            <div class="raz"></div>
+        </div>
+        <div class="discrib_main">
+            <div class="ocomp">
+                <div class="img0">
+                    <img src="css/mtl/strelki.png" class="img0_0">
+                </div> 
+                <div class="ocomp_discrib">
+                    <div class="title_post">
+                        <h1 class="ocomp_item title_post_text">Купи Продай</h1>
+                    </div>
+                    <div class="ocomp_item main_text_post">
+                    <h1 class="text0">Вы можете покупать вещи или услуги прямо онлайн! Для этого нужно лишь связаться с продавцом вещи/услуги, и без вмешательства посторонних лиц! 
+                        Или же вы можете продать вещи которыми вы давно не пользуетесь, мы думаем они кому-нибудь понадобятся!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="opol">
+                <div class="opol_discrib">
+                    <div class="title_post">
+                        <h1 class="opol_item title_post_text_opol">Торговля</h1>
+                    </div>
+                    <div class="opol_item main_text_post">
+                        <h1 class="text0">Чем мы лучше других площадок объявлений? У нас функции продажи и создания своего интернет-магазина абсолютно бесплатны! Торговля и услуги на нашем сайте не обкладывается комиссией, вы можете безпрепятственно торговать и обслуживать людей!  </h1>
+                    </div>
+                </div>
+                <div class="img1">
+                    <img src="css/mtl/ruble.png" class="img1_1">
+                </div>
+            </div>
+        </div>
+        <div class="box_name">
+            <h1 class="dis1">О нас:</h1>
+            <h2 class="dis2">Сайт создал начинающий верстальщик сайтов для проекта МПИТ 2022.</h1>
+        </div>
+    </div>
+</body>
+</html> 
